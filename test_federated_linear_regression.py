@@ -43,7 +43,6 @@ lrA_from_disk = pickle.load(open(model_A_file, 'rb'))
 lrB_from_disk = pickle.load(open(model_B_file, 'rb'))
 
 # Create a new model as the average of models A and B
-#iris_lr_fed_avg = FederatedLinearRegression.federated_average(lrA_from_disk, lrB_from_disk)
 flr_list = [lrA_from_disk, lrB_from_disk]
 iris_lr_fed_avg = FederatedLinearRegression.federated_average(flr_list)
 
