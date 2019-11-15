@@ -23,7 +23,7 @@ federated_model_list = [ flr_model_a, flr_model_b, flr_model_c ]
 # Call FederatedLinearRegression.federated_average, passing the list of federated models as the only argument
 flr_averaged = FederatedLinearRegression.federated_average(federated_model_list)
 
-# User the returned federated average model as you would normally
+# Use the returned federated average model as you would normally
 data_test = ...
 flr_averaged.score(data_test.data, data_test.target)
 ```
