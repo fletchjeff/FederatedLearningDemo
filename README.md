@@ -28,4 +28,4 @@ data_test = ...
 flr_averaged.score(data_test.data, data_test.target)
 ```
 
-For a working example using the Iris dataset, try [test_federated_linear_regression.py](test_federated_linear_regression.py). Clone this repository and run `python3 test_federated_learning.py`.
+For a working example using the Iris dataset, try [test_federated_linear_regression.py](test_federated_linear_regression.py). Clone this repository and run `$ python3 test_federated_learning.py`.
